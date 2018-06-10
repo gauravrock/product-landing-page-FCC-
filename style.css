@@ -1,0 +1,202 @@
+body {
+    overflow-x: hidden;
+  }
+.wheat{
+    width:100%;
+    height:800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+h1{
+    font-weight: 500; 
+    color:#323232;
+    font-size: 22vw;
+    font-family: 'Muli', sans-serif;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h4{ display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center; 
+    font-size:220%; 
+    font-family: 'Arapey', serif;
+    font-weight: 900; 
+    position: absolute; 
+    top: 40%; 
+    left: 49%; 
+    width: 100%;
+    transform: translate(-50%, -50%); 
+    }
+    /*to give the space b/w navbar-brand and other menu items */
+  
+    .navbar-collapse {
+        margin-left: 70%;
+      }
+      /*navbar-brand a great symbol*/
+      .navbar-brand{
+          color: #313131;
+          font-size: 40px;
+          font-weight: 1000;
+          font-family: 'Montserrat', sans-serif;
+      }
+      /*menu button css changes*/
+      .nav-item{
+        font-family: 'Montserrat', sans-serif;
+        background-color: #F8E8A7;
+      }
+      
+      .nav-item:hover{
+      border-bottom: 5px solid red;
+    }
+    /*to desing for main image*/
+   .black{
+       background-color: #323232;
+       height:800px;
+   }
+   .homy{
+    font-weight: 500; 
+    color:white;
+    font-family: 'Muli', sans-serif;
+    padding-top:15% ;
+    float: left;
+    font-size: 520%;
+    margin-left:30px;
+       
+   }
+   .pone{
+    font-weight: 10; 
+    color:grey;
+    font-family: 'Muli', sans-serif;
+    padding-top:18% ;
+    margin-left:38px;
+    text-align: left;
+    width:340px;
+   }
+   .qual {
+    font-weight: 500; 
+    color:white;
+    font-family: 'Muli', sans-serif;
+    margin-top:72px ;
+    float: right;
+    font-size: 520%;
+    margin-right:70px;
+}
+.ptwo{
+    font-weight: 10; 
+    color:grey;
+    font-family: 'Muli', sans-serif;
+    padding-top: 196px;
+   margin-right:-340px;
+    text-align: left;
+    width:340px;
+}
+
+   .white{
+       background-color: white;
+       height: 800px;
+   }
+   .noddles{
+    width:100%;
+    height:800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    .fluid-video{
+        position: absolute;
+        top: 1980px;
+        left: 65%;
+        transform: translate(-50%, -50%); 
+    }
+    
+    .video{
+        font-size:3.2em;
+    }
+    
+    /*footer starts*/
+    .footer-start{
+        height:400px;
+        background-color: #FAC652;
+    }
+    .info{
+      margin-top:0px;
+        font-family: 'Muli', sans-serif;
+        color:#323232;
+        font-size: 320%;
+        display: flex;
+        align-items:center; 
+        flex-direction: column;
+        text-align: center;
+     padding-right:30px;
+
+    }
+
+
+
+    .form-group{
+        display: flex;
+        align-items:center; 
+        flex-direction: column;
+
+    }
+    .form-control{
+       
+        width: 250px;
+        margin-top: 4%;
+       
+    }
+    .btn-dark{
+        margin-top:15px;
+       
+        
+    }
+
+
+    @media(max-width:700px){
+        .fluid-video{
+            position: absolute;
+            top: 1980px;
+            left: 50%;
+            transform: translate(-50%, -50%); 
+        }
+        .video-org{
+            font-size:3.2em;
+            text-align: center;
+        }
+        #video{
+             width:120%;
+            height:110%;
+        }
+    }
+@media(max-width:620px){
+        h1{
+            font-weight: 500; 
+            color:#323232;
+            font-size: 22vw;
+            font-family: 'Muli', sans-serif;
+            position: absolute;
+            top: 78%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        h4{ display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center; 
+            font-size:220%; 
+            font-family: 'Arapey', serif;
+            font-weight: 900; 
+            position: absolute; 
+            top: 44%; 
+            left: 49%; 
+            width: 100%;
+            transform: translate(-50%, -50%); 
+            }
+    }
+
+    
+    
